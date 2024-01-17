@@ -2,7 +2,7 @@
 
 ##1 First Clone the repo from master branch to your local machine
  Then nevigate to frontend_02 and backend_02 and run commnad 
- ### `yarn` for build.
+ ### `yarn` for packaage installation.
 
  then start the frontend server to start that nevigate to forentend_02 directory and run command  `yarn dev`.
 
