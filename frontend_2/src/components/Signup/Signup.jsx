@@ -29,7 +29,7 @@ export const Signup = () => {
     try {
       if (password === confirmPassword) {
         const data = { email, password, name };
-        const response = await axios.post("http://localhost:9002/signup", data);
+        const response = await axios.post("https://affworld-assignment.onrender.com/signup", data);
         setUser(response.data.user);
         toast({
           title: "Signup Success",

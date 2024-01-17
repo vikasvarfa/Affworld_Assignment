@@ -27,7 +27,7 @@ export const Login = () => {
     e.preventDefault();
     try {
       const data = { email, password };
-      const response = await axios.post("http://localhost:9002/signin", data);
+      const response = await axios.post("https://affworld-assignment.onrender.com/signin", data);
       setUser(response.data.user);
       toast({
         title: "Login Success",

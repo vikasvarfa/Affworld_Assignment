@@ -20,7 +20,7 @@ function AddSecret() {
     try {
       setText(text.trim());
       const response = await axios.post(
-        "http://localhost:9002/add_secret",
+        "https://affworld-assignment.onrender.com/add_secret",
         { text },
         {
           headers: {

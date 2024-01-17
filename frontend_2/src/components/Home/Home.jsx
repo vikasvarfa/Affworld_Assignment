@@ -28,7 +28,7 @@ function Home() {
   useEffect(() => {
     async function fetchSecrets() {
       try {
-        const response = await axios.get("http://localhost:9002/get_secrets", {
+        const response = await axios.get("https://affworld-assignment.onrender.com/get_secrets", {
           headers: {
             "x-access-token": currentUser.token,
           },
