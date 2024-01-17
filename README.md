@@ -15,3 +15,6 @@
  to your localhost machine link in files AddSecret.jsx   Home.jsx  Login.jsx  Signup.jsx  in frontend_02 folder
 
  this will now take your local machine server to frontend
+
+ ## website working
+  ### I have created a website where users can sign up and post their secrets. Please note that each user can only post one secret message, and the posted secret can be seen anonymously. This means that the user's identity is not disclosed when they post a secret."
